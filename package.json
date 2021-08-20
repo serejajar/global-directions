@@ -17,7 +17,7 @@
     "url": "https://github.com/serejajar/global-directions/issues"
   },
   "homepage": "https://github.com/serejajar/global-directions#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^27.0.6"
   }
 }
