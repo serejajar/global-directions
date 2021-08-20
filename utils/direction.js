@@ -69,7 +69,7 @@ const globalDirections = [
 
 function getGlobalDirection(start, dest) {
     const bearing = getBearing(start, dest);
-    console.log('bearing', bearing);
+
     const placeholder = {
         name: '',
         fullName: ''
@@ -86,7 +86,6 @@ function getGlobalDirection(start, dest) {
         const from = start - halfDegree;
         const to = end + halfDegree;
 
-        console.log('bearing: ', bearing, ', from: ', from, ', to: ', to);
         // for North
         if (i === 0) {
           return (bearing >= from && bearing <= 360) || (bearing > 0 && bearing <= to);
@@ -95,7 +94,6 @@ function getGlobalDirection(start, dest) {
         return bearing >= from && bearing <= to;
     }) || placeholder;
 
-    console.log('getGlobalDirection', direction);
     return direction.name;
 }
 

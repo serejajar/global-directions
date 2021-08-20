@@ -8,8 +8,6 @@ const [,, stringA, stringB] = process.argv;
 const a = JSON.parse(stringA);
 const b = JSON.parse(stringB);
 
-console.log(a, b);
-
 const direction = getGlobalDirection(a, b);
 const miles = getDistance(a, b);
 
