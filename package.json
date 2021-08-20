@@ -1,0 +1,23 @@
+{
+  "name": "global-directions",
+  "version": "1.0.0",
+  "description": "Get directions between two coordinats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serejajar/global-directions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serejajar/global-directions/issues"
+  },
+  "homepage": "https://github.com/serejajar/global-directions#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
